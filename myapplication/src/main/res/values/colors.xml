@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#aaa</color>
+    <color name="grey">#ebebeb</color>
+    <!-- 透明 -->
+    <color name="color_translation">#00FFFFFF</color>
+    <!-- 透明,黑色-->
+    <color name="color_translation_black">#dd242424</color>
+    <!-- 黑色,透明度70%-->
+    <color name="color_translation_black2">#b4242424</color>
+    <!-- 白色 -->
+    <color name="color_white">#FFFFFF</color>
+    <!-- 浅灰色 -->
+    <color name="color_gray">#EDEDED</color>
+    <!-- 中灰色 -->
+    <color name="color_medium_gray">#cdcdcd</color>
+
+    <color name="color_light_gray">#d0d0d0</color>
+    <!-- 深灰色 -->
+    <color name="color_grays">#999999</color>
+    <!-- 深灰色 -->
+    <color name="color_gray_deep">#fcfdfb</color>
+    <!-- 红色 -->
+    <color name="color_red">#dd0000</color>
+    <!-- 黑色 -->
+    <color name="color_black">#333333</color>
+    <!-- 暗黑色 -->
+    <color name="color_furvous">#575757</color>
+    <!-- 蒙版,半透明-->
+    <color name="color_furvous_mask">#55575757</color>
+    <!-- 蓝色 -->
+    <!-- 深蓝色 -->
+    <!-- 绿色 -->
+    <!-- 深绿色 -->
+    <!-- 黄色 -->
+    <!-- 紫色 -->
+    <!-- 象牙 -->
+    <!-- （浅褐色） -->
+    <color name="color_beige">#FFFFF0</color>
+    <!-- 卡其布 -->
+    <!-- 透明 -->
+    <color name="transparent">@android:color/transparent</color>
+    <color name="black_overlay_transparent">#33000000</color>
+    <color name="gray_background">#ffececec</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#4EA3D4</color>
+    <color name="red">#E51A18</color>
+    <color name="orange">#ff814a</color>
+    <color name="text_color_light">#999999</color>
+    <!-- 透明度80-->
+    <color name="color_transparency_80">#8f1e1e1e</color>
+    <color name="white_transparency_20">#2fffffff</color>
+
+
+    <!-- zing 扫描二维码用到的颜色 -->
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="discount_time">#ff814a</color>
+    <!-- zing 扫描二维码用到的颜色 -->
+    <!-- 主应用程序 -->
+    <color name="text_minor">#ff666666</color>
+
+    <!-- 日历 -->
+    <color name="prev_next_month_day_color">#999999</color>
+    <color name="Calendar_DayBgColor">#F7F7F7</color>
+    <color name="gray">#808080</color>
+    <color name="text_dialog_black">#666666</color>
+
+    <!-- 蓝色按钮 -->
+
+    <!-- 蓝色分割线 -->
+
+    <!-- 租用确认灰背景 -->
+    <!-- 酒红色字体 -->
+
+    <!-- 远程遥控字体颜色 -->
+    <color name="color_yellow_whistle">#febb07</color>
+
+    <!-- 选中还车网点后的背景色-->
+    <!-- 选中日历后的背景色-->
+
+
+    <color name="more_green">#84B234</color>
+    <!--标题栏的颜色-->
+    <!--<color name="main_green">#8FBE3D</color>-->
+
+    <!-- 白底标注字的颜色 -->
+
+    <!-- deadline_color ,用于所有的分割线,描边线-->
+    <color name="deadline_color">#e5e5e5</color>
+
+    <!-- 白底 -->
+    <color name="light_gray_bg">#F7f7f7</color>
+
+    <!-- 淡灰色背景 -->
+
+    <!-- APP界面主体颜色 包括定制版 只需更换以下一个颜色值 -->
+
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="nav_color">#4675FF</color>
+
+
+    <color name="blue1">#1196b3</color>
+
+    <color name="unselected">#B2BCC5</color>
+    <color name="primary_material_light">#C8E6C9</color>
+    <color name="windowBackground">#ffffff</color>
+
+    <color name="dailyRentail">#F5F2F0</color>
+
+    <color name="daily_rentail_selector_bottom">#DEDEDE</color>
+
+    <!-- 底部按钮 未选中时的颜色 -->
+    <color name="bottom_select_no">#9B9B9B</color>
+    <color name="activity_background_violation">#F0F2F5</color>
+
+    <color name="select_car_bg">#C7C7C7</color>
+
+    <color name="color_orange_red">#ff814a</color>
+    <color name="transparent_white">#bbffffff</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="dark">#333333</color>
+</resources>
