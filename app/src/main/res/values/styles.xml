@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>         <!--toolbar颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>  <!-- 状态栏颜色 -->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item> <!--返回键样式-->
+    </style>
+
+    <!--更新dailog1-->
+    <style name="update_dialog1" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- 透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--返回键样式-->
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="ReaderTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/paper_gray_bg</item>  <!-- 状态栏颜色 -->
+        <item name="android:windowIsTranslucent">true</item> <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!---->
+        <item name="android:windowAnimationStyle">@null</item><!--无进入动画-->
+    </style>
+</resources>

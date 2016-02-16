@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/updating_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_marginTop="6dp"
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/updating_focus" />
+
+    <TextView
+        android:ems="9"
+        android:singleLine="true"
+        android:id="@+id/tv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="开足马力加载...(15)"
+        android:textColor="#ededed"
+        android:textSize="14sp" />
+
+</LinearLayout>

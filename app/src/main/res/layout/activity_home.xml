@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:background="@color/light_gray_bg"
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_height"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize">
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginRight="@dimen/white_space"-->
+            <!--android:text="Reader"-->
+            <!--android:textColor="@color/color_white"-->
+            <!--android:textSize="@dimen/twenty_font"/>-->
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_below="@id/toolbar"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/normal_height"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginBottom="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/menu_head"/>
+
+        <ListView
+            android:id="@+id/drawer_menu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:divider="@color/white"
+            android:dividerHeight="1dp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
